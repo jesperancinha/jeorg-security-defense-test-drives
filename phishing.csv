@@ -1,0 +1,10 @@
+keyWord,entity,domains,antiPhishingEmail
+santander,Banco Santander,gruposantander.es|santander.es,phishing@gruposantander.es
+amazon,Amazon,amazon.com,stop-spoofing@amazon.com
+apple,Apple,apple.com,reportphishing@apple.com
+bankia,Bankia,bankia.es,phishing@bankia.com
+spotify,Spotify,spotify.com,spoof@spotify.com
+netflix,Netflix,netflix.com,phishing@netflix.com
+fedex,FedEx,fedex.com,abuse@fedex.com
+icloud|apple,iCloud,icloud.com,abuse@icloud.com
+bradesco,Bradesco,bradesco.com.br,evidencia@bradesco.com.br
