@@ -4,6 +4,12 @@
     <artifactId>auto-phishing-reporter</artifactId>
     <version>0.0.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.7.RELEASE</version>
+    </parent>
+
     <packaging>jar</packaging>
 
     <properties>
@@ -26,6 +32,9 @@
         <commons-io.version>2.6</commons-io.version>
         <gson.version>2.8.5</gson.version>
         <mapstruct-processor.version>1.3.0.Final</mapstruct-processor.version>
+        <javax.mail-api.version>1.6.2</javax.mail-api.version>
+        <spring-boot-starter-mail.version>2.1.9.RELEASE</spring-boot-starter-mail.version>
+        <greenmail.version>1.5.10</greenmail.version>
     </properties>
 
     <dependencies>
@@ -48,6 +57,15 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+            <version>${spring-boot-starter-mail.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -77,6 +95,12 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.icegreen</groupId>
+            <artifactId>greenmail</artifactId>
+            <version>${greenmail.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

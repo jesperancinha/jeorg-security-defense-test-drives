@@ -5,6 +5,10 @@ The goal of this repository is to create a tool which users can install as a ser
 
 *** Under development ***
 
+## References
+
+-   [Greenmail](http://www.icegreen.com/greenmail/)
+
 ## License
 
 ```text
