@@ -9,6 +9,20 @@ The goal of this repository is to create a tool which users can install as a ser
 
 -   [Greenmail](http://www.icegreen.com/greenmail/)
 
+### Fraud report websites
+
+-   [Fraude Helpdesk](https://www.fraudehelpdesk.nl)
+-   [Bankia](https://www.blogbankia.es/es/blog/phishing-como-detectarlo.html)
+-   [Santander](https://www.bancosantander.es/es/particulares/banca-online/seguridad-online/aprende-seguridad-online/phishing)
+-   [Bradesco](https://www.bradescoseguranca.com.br/html/seguranca_corporativa/pf/emails-e-telas-falsas/emails-falsos.shtm)
+-   [Apple](https://support.apple.com/nl-nl/HT204759)
+-   [iCloud](https://support.apple.com/nl-nl/HT204759)
+-   [Spotify](https://support.spotify.com/us/account_payment_help/privacy/suspicious-email/) [NL](https://support.spotify.com/be-nl/account_payment_help/privacy/suspicious-email/) 
+-   [Rabobank](https://www.rabobank.nl/particulieren/veiligbankieren/wees-alert-op-fraude/)
+-   [ABN Amro](https://www.abnamro.nl/nl/prive/abnamro/veilig-bankieren/phishing-valse-email-fraude-melden.html)
+-   [ING](https://www.ing.nl/de-ing/veilig-bankieren/fraude-melden/meld-fraude-direct/index.html)
+-   [Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/fraude_misdaad_en_misstanden_melden/valse+mail_brieven_telf_app/valse_mail_phishing_mail/hoe_meld_ik_een_phishingmail_vanuit_mijn_e-mailprogramma)
+
 ## License
 
 ```text
