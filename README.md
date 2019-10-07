@@ -1,6 +1,7 @@
 # Auto Phishing Reporter
-The goal of this repository is to create a tool which users can install as a service and with that, have their phishing emails automatically sent to whatever user map them to. I will only make an official release of this when I'm absolutely sure of a couple of things. One is that the wrong mail doesn't get emailed to a phishing reporting service and make sure that to the best of my knowledge, the phishing emails are reported by the minute you receive them. This will give pirates and hackers a lot less time be able to escape. All of this comfortably knowing that no script will be run from the emails received.
+The goal of this repository is to create a tool which users can install as a service and with that, have their phishing emails automatically sent to wherever users map them to. I will only make an official release of this when I'm absolutely sure of a couple of things. One is that the wrong mail doesn't get emailed to a phishing reporting service and make sure that to the best of my knowledge, the phishing emails are reported by the minute you receive them. This will give pirates and hackers a lot less time be able to escape. All of this comfortably knowing that no script will be run from the emails received.
 
+Please be aware that first versions will only consider dry/runs. This means no changes will be made but you will get an automated report on what to do per suspected email you've received on your account.
 ## Status
 
 *** Under development ***
@@ -11,7 +12,7 @@ The goal of this repository is to create a tool which users can install as a ser
 
 ### Fraud report websites
 
--   [Fraude Helpdesk](https://www.fraudehelpdesk.nl)
+-   [Fraude Helpdesk NL](https://www.fraudehelpdesk.nl)
 -   [Bankia](https://www.blogbankia.es/es/blog/phishing-como-detectarlo.html)
 -   [Santander](https://www.bancosantander.es/es/particulares/banca-online/seguridad-online/aprende-seguridad-online/phishing)
 -   [Bradesco](https://www.bradescoseguranca.com.br/html/seguranca_corporativa/pf/emails-e-telas-falsas/emails-falsos.shtm)
@@ -22,6 +23,7 @@ The goal of this repository is to create a tool which users can install as a ser
 -   [ABN Amro](https://www.abnamro.nl/nl/prive/abnamro/veilig-bankieren/phishing-valse-email-fraude-melden.html)
 -   [ING](https://www.ing.nl/de-ing/veilig-bankieren/fraude-melden/meld-fraude-direct/index.html)
 -   [Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/fraude_misdaad_en_misstanden_melden/valse+mail_brieven_telf_app/valse_mail_phishing_mail/hoe_meld_ik_een_phishingmail_vanuit_mijn_e-mailprogramma)
+-   [Action Fraud UK](https://www.actionfraud.police.uk/reporting-fraud-and-cyber-crime)
 
 ## License
 
