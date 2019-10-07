@@ -11,3 +11,6 @@ bin
 # Eclipse
 .class
 .project
+
+# Hidden ffiles
+suspectemails_local.txt
