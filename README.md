@@ -9,10 +9,18 @@ Please be aware that first versions will only consider dry/runs. This means no c
 ## References
 
 -   [Greenmail](http://www.icegreen.com/greenmail/)
+-   [Mount failed (unknown file system) in virtualbox in ubuntu 14.04 and Windows 7 as host after installing GuestAdditions](https://superuser.com/questions/745868/mount-failed-unknown-file-system-in-virtualbox-in-ubuntu-14-04-and-windows-7-a/881936)
+-   [How to access a shared folder in VirtualBox?](https://askubuntu.com/questions/161759/how-to-access-a-shared-folder-in-virtualbox)
+-   [Mounting VirtualBox shared folders on Ubuntu Server 16.04 LTS](https://gist.github.com/estorgio/1d679f962e8209f8a9232f7593683265)
 
-### Fraud report websites
+### Fraud report (Generic) websites
 
 -   [Fraude Helpdesk NL](https://www.fraudehelpdesk.nl)
+-   [Action Fraud UK](https://www.actionfraud.police.uk/reporting-fraud-and-cyber-crime)
+
+### Fraud report (Specific) websites
+ 
+-   [Amazon](https://www.amazon.com/gp/help/customer/display.html?nodeId=201909130)
 -   [Bankia](https://www.blogbankia.es/es/blog/phishing-como-detectarlo.html)
 -   [Santander](https://www.bancosantander.es/es/particulares/banca-online/seguridad-online/aprende-seguridad-online/phishing)
 -   [Bradesco](https://www.bradescoseguranca.com.br/html/seguranca_corporativa/pf/emails-e-telas-falsas/emails-falsos.shtm)
@@ -23,7 +31,7 @@ Please be aware that first versions will only consider dry/runs. This means no c
 -   [ABN Amro](https://www.abnamro.nl/nl/prive/abnamro/veilig-bankieren/phishing-valse-email-fraude-melden.html)
 -   [ING](https://www.ing.nl/de-ing/veilig-bankieren/fraude-melden/meld-fraude-direct/index.html)
 -   [Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/fraude_misdaad_en_misstanden_melden/valse+mail_brieven_telf_app/valse_mail_phishing_mail/hoe_meld_ik_een_phishingmail_vanuit_mijn_e-mailprogramma)
--   [Action Fraud UK](https://www.actionfraud.police.uk/reporting-fraud-and-cyber-crime)
+-   [DHL](https://www.dhlparcel.nl/nl/phishing)
 
 ## License
 
