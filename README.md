@@ -41,7 +41,7 @@ brew install rdesktop
 -   [ING](https://www.ing.nl/de-ing/veilig-bankieren/fraude-melden/meld-fraude-direct/index.html)
 -   [Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/fraude_misdaad_en_misstanden_melden/valse+mail_brieven_telf_app/valse_mail_phishing_mail/hoe_meld_ik_een_phishingmail_vanuit_mijn_e-mailprogramma)
 -   [DHL](https://www.dhlparcel.nl/nl/phishing)
--   [How to Report a Fraudulent Website to a Registrar](https://www.namecheap.com/blog/how-to-report-a-fraudulent-website-to-a-registrar/)
+-   [How to Report a Fraudulent Website to a Register](https://www.namecheap.com/blog/how-to-report-a-fraudulent-website-to-a-registrar/)
 -   [Hosting Checker](https://hostingchecker.com/)
 -   [Go Daddy Who Is](https://nl.godaddy.com/whois)
 
@@ -66,9 +66,8 @@ limitations under the License.
 ## About me
 
 -   [![Generic badge](https://img.shields.io/static/v1.svg?label=Homepage&message=joaofilipesabinoesperancinha.nl&color=informational)](http://joaofilipesabinoesperancinha.nl)
-<a href="https://dev.to/jofisaes">
-  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="João Esperancinha's DEV Profile" height="30" width="30">
-</a>
+
+-   [![Generic badge](https://img.shields.io/static/v1.svg?label=DEV&message=Profile&color=informational)](https://dev.to/jofisaes)
 
 -   [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=jesperancinha&style=social)](https://github.com/jesperancinha)
 
