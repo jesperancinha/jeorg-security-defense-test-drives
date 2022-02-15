@@ -9,9 +9,11 @@
 
 [![auto-phishing-reporter](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml/badge.svg)](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml)
 
-[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/auto-phishing-reporter/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/auto-phishing-reporter?branch=master)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/auto-phishing-reporter&amp;utm_campaign=Badge_Grade)
+
+[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/auto-phishing-reporter/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/auto-phishing-reporter?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/auto-phishing-reporter/branch/master/graph/badge.svg?token=X6A7wP3Dvw)](https://codecov.io/gh/jesperancinha/auto-phishing-reporter)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/auto-phishing-reporter.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/auto-phishing-reporter.svg)](#)
