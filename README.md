@@ -1,4 +1,10 @@
 # Auto Phishing Reporter
+
+---
+
+---
+
+
 The goal of this repository is to create a tool which users can install as a service and with that, have their phishing emails automatically sent to wherever users map them to. I will only make an official release of this when I'm absolutely sure of a couple of things. One is that the wrong mail doesn't get emailed to a phishing reporting service and make sure that to the best of my knowledge, the phishing emails are reported by the minute you receive them. This will give pirates and hackers a lot less time be able to escape. All of this comfortably knowing that no script will be run from the emails received.
 
 Please be aware that first versions will only consider dry/runs. This means no changes will be made but you will get an automated report on what to do per suspected email you've received on your account.
@@ -44,6 +50,12 @@ brew install rdesktop
 -   [How to Report a Fraudulent Website to a Register](https://www.namecheap.com/blog/how-to-report-a-fraudulent-website-to-a-registrar/)
 -   [Hosting Checker](https://hostingchecker.com/)
 -   [Go Daddy Who Is](https://nl.godaddy.com/whois)
+
+## Buy me a coffee
+
+I hope you enjoyed this repository. If you did, you can optionally please buy me a coffee, which supports me in constantly improve and make new free content regularly for everyone. Thank you so much!
+
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=jesperancinha&button_colour=046c46&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00 "title")](https://www.buymeacoffee.com/jesperancinha)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
