@@ -4,19 +4,14 @@
     <artifactId>auto-phishing-reporter</artifactId>
     <version>0.0.0-SNAPSHOT</version>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.7.RELEASE</version>
-    </parent>
-
     <packaging>jar</packaging>
 
     <properties>
         <lombok.version>1.18.22</lombok.version>
-        <maven-compiler-plugin.compilerVersion>11</maven-compiler-plugin.compilerVersion>
-        <maven-compiler-plugin.source>11</maven-compiler-plugin.source>
-        <maven-compiler-plugin.target>11</maven-compiler-plugin.target>
+        <java.version>17</java.version>
+        <maven-compiler-plugin.compilerVersion>${java.version}</maven-compiler-plugin.compilerVersion>
+        <maven-compiler-plugin.source>${java.version}</maven-compiler-plugin.source>
+        <maven-compiler-plugin.target>${java.version}</maven-compiler-plugin.target>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
@@ -24,12 +19,12 @@
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-release-plugin.version>2.4.1</maven-release-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
-        <junit-jupiter.version>5.5.1</junit-jupiter.version>
-        <assertj-core.version>3.11.1</assertj-core.version>
+        <junit-jupiter.version>5.8.2</junit-jupiter.version>
+        <assertj-core.version>3.22.0</assertj-core.version>
         <picocli.version>4.6.2</picocli.version>
         <lombok-maven-plugin.version>1.18.6.0</lombok-maven-plugin.version>
-        <mockito-junit-jupiter.version>2.23.0</mockito-junit-jupiter.version>
-        <commons-io.version>2.7</commons-io.version>
+        <mockito-junit-jupiter.version>4.3.1</mockito-junit-jupiter.version>
+        <commons-io.version>2.11.0</commons-io.version>
         <gson.version>2.8.9</gson.version>
         <mapstruct-processor.version>1.4.2.Final</mapstruct-processor.version>
         <javax.mail-api.version>1.6.2</javax.mail-api.version>
@@ -37,8 +32,20 @@
         <greenmail.version>1.5.10</greenmail.version>
         <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
         <omni-coveragereporter-maven-plugin.version>0.3.0</omni-coveragereporter-maven-plugin.version>
+        <spring-boot-starter-parent.version>2.6.3</spring-boot-starter-parent.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring-boot-starter-parent.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.mapstruct</groupId>
@@ -138,7 +145,6 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-            <plugin>
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
