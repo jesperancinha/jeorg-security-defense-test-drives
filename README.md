@@ -9,7 +9,6 @@
 
 [![auto-phishing-reporter](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml/badge.svg)](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml)
 
-
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/auto-phishing-reporter&amp;utm_campaign=Badge_Grade)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/auto-phishing-reporter&utm_campaign=Badge_Coverage)
