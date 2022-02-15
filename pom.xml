@@ -29,7 +29,7 @@
         <mapstruct-processor.version>1.4.2.Final</mapstruct-processor.version>
         <javax.mail-api.version>1.6.2</javax.mail-api.version>
         <spring-boot-starter-mail.version>2.6.3</spring-boot-starter-mail.version>
-        <greenmail.version>1.5.10</greenmail.version>
+        <greenmail.version>1.6.5</greenmail.version>
         <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
         <omni-coveragereporter-maven-plugin.version>0.3.0</omni-coveragereporter-maven-plugin.version>
         <spring-boot-starter-parent.version>2.6.3</spring-boot-starter-parent.version>
