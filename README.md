@@ -2,8 +2,20 @@
 
 ---
 
----
+[![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/auto-phishing-reporter)
+[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=auto-phishing-reporter%20🗄&color=informational)](https://github.com/jesperancinha/auto-phishing-reporter)
 
+[![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[![performance-parsers](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml/badge.svg)](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml)
+
+
+
+[![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/auto-phishing-reporter.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/auto-phishing-reporter.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/auto-phishing-reporter.svg)](#)
+
+---
 
 The goal of this repository is to create a tool which users can install as a service and with that, have their phishing emails automatically sent to wherever users map them to. I will only make an official release of this when I'm absolutely sure of a couple of things. One is that the wrong mail doesn't get emailed to a phishing reporting service and make sure that to the best of my knowledge, the phishing emails are reported by the minute you receive them. This will give pirates and hackers a lot less time be able to escape. All of this comfortably knowing that no script will be run from the emails received.
 

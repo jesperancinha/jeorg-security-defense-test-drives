@@ -1,4 +1,4 @@
-name: performance-parsers-pull-request
+name: auto-phishing-reporter-pull-request
 
 on:
   pull_request:
