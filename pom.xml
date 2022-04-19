@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <lombok.version>1.18.22</lombok.version>
+        <lombok.version>1.18.24</lombok.version>
         <java.version>17</java.version>
         <maven-compiler-plugin.compilerVersion>${java.version}</maven-compiler-plugin.compilerVersion>
         <maven-compiler-plugin.source>${java.version}</maven-compiler-plugin.source>
