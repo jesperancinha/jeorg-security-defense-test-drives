@@ -1,0 +1,14 @@
+# Intellij
+.idea
+*.iml
+
+# Build
+out
+target
+bin
+build
+*.key
+*.key.pub
+*.b64
+signature
+jwt.jose

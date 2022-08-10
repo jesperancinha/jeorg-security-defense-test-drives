@@ -1,32 +1,118 @@
-# JEOrg Security Defense Test Drives
+# security-test-drives
 
 ---
 
-[![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/auto-phishing-reporter)
-[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=auto-phishing-reporter%20🔬&color=informational)](https://github.com/jesperancinha/auto-phishing-reporter)
-
-[![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-
-[![auto-phishing-reporter](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml/badge.svg)](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/auto-phishing-reporter&amp;utm_campaign=Badge_Grade)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/auto-phishing-reporter&utm_campaign=Badge_Coverage)
-[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/auto-phishing-reporter/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/auto-phishing-reporter?branch=master)
-[![codecov](https://codecov.io/gh/jesperancinha/auto-phishing-reporter/branch/master/graph/badge.svg?token=X6A7wP3Dvw)](https://codecov.io/gh/jesperancinha/auto-phishing-reporter)
-
-[![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/auto-phishing-reporter.svg)](#)
-[![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/auto-phishing-reporter.svg)](#)
-[![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/auto-phishing-reporter.svg)](#)
+[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Security%20Test%20Drives&color=informational)](https://github.com/jesperancinha/security-test-drives)
 
 ---
 
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧 !!! [Under construction...](https://github.com/jesperancinha/project-signer/blob/master/project-signer-templates/UnderConstruction.md) !!! 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+## Introduction
 
+Welcome to my Security Test Drives project.
+This module is a compilation of original study materials regarding DevSecOps, which I have created with the help of several online resources.
+These materials are not related to any specific exam, and they are intended solely as guides for a better understanding of security overall.
+Please feel free to use these materials for your education or exams.
 
-## Status
+## References
 
-*** Under development ***
+-   [RSA Conference](https://www.rsaconference.com/)
+-   [OWASP (Open Web Application Security Project)](https://owasp.org/)
+-   [CWE - Common Weakness Enumeration](https://cwe.mitre.org/)
+-   [CSIS - Center for Strategic & International Studies](https://www.csis.org/)
+-   [Ponemon Institute](https://www.ponemon.org/)
+-   [CVE - Common Vulnerabilities and Exposures](https://cve.mitre.org/)
+-   [SecLists.Org](https://seclists.org/)
+-   [CAPEC - Common Attack Pattern Enumeration and Classification](https://capec.mitre.org/)
+-   [JPCERTCC - Japan Computer Emergency Response Team Coordination Center](https://www.jpcert.or.jp)
+-   [CISA - Cybersecurity and Infrastructure Security Agency](https://us-cert.cisa.gov/)
+-   [Nikto](https://github.com/sullo/nikto)
+-   [OpenVAS - Open Vulnerability Assessment Scanner](https://www.openvas.org/)
+-   [Wireshark](https://www.wireshark.org/)
+-   [THC Hydra - The Hackers Choice Hydra](https://github.com/vanhauser-thc/thc-hydra/)
+-   [Burp Suite](https://portswigger.net)
+-   [Vagrant](https://www.vagrantup.com/)
+-   [WHOis.Net](https://whois.net/)
+-   [NMAP](https://nmap.org/)
+-   [Puppet](https://puppet.com/)
+-   [Kali Linux](https://www.kali.org/)
+-   [Damn Vulnerable Web Application](http://www.dvwa.co.uk/)
+-   [PCI SSC - Payment Card Industry Security Council](https://www.pcisecuritystandards.org/)
+-   [HIPPA - Health Insurance Portability and Accountability Act](https://www.hhs.gov/hipaa/index.html)
+-   [SANS Institute](https://www.sans.org/)
+-   [OWASP - Open Web Application Project](https://wiki.owasp.org/)
+-   [Cybercrime Magazine](https://cybersecurityventures.com/)
+-   [FIRST - Forum of Incident Response and Security Teams](https://www.first.org/)
+-   [ISSA - Information Security Association International](https://www.issa.org/)
+-   [ITU - International Telecommunications Union](https://www.itu.int)
+-   [SET](https://github.com/trustedsec/social-engineer-toolkit)
+-   [WebGoat](https://github.com/WebGoat/WebGoat)
+-   [Gophish](https://getgophish.com/)
+-   [BeEF - Browser Exploitation Framework Project](https://beefproject.com/)
+-   [CREST - Center for Research and Evidence on Security Threats](https://www.crest-approved.org/)
+-   [MindMeister](https://www.mindmeister.com/)
+-   [COSO - Committee of Sponsoring Organizations of the Treadway Commission](https://www.coso.org/)
+-   [PMI - Project Management Institute](https://www.pmi.org/)
+-   [Penetration Testing Execution Standard](http://www.pentest-standard.org/)
+-   [Fortify](https://www.microfocus.com/en-us/solutions/application-security)
+-   [Volatility](https://www.volatilityfoundation.org/)
+-   [AICPA - American Institute of CPAs (Certified Public Accountants)](https://www.aicpa.org/)
+-   [Security Intelligence](https://securityintelligence.com/)
+-   [Oak Ridge National Laboratory (Summit Super Computer)](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
+-   [John the Ripper](https://github.com/magnumripper/JohnTheRipper)
+-   [Metasploit](https://www.metasploit.com/)
+-   [Hack the box](https://www.hackthebox.eu/)
+-   [Impacket](https://github.com/SecureAuthCorp/impacket)
+-   [NIST - National Institute for Standards and Technology](https://www.nist.gov/)
+-   [PIVOT Project](https://pivotproject.org/)
+-   [SANS - DFIR - Digital Forensics and Incident Response](https://digital-forensics.sans.org/)
+-   [Cybersecurity Guide](https://cybersecurityguide.org/)
+-   [UFS Explorer - Data Recovery and Access Software](https://www.ufsexplorer.com/)
+-   [Anaconda](https://www.anaconda.com/)
+-   [Open Source For You](https://www.opensourceforu.com/)
+-   [Magnetic Forensics](https://www.magnetforensics.com/)
+-   [Ghidra](https://ghidra-sre.org/)
+-   [Radare2](https://rada.re/)
+-   [OllyDbg](http://www.ollydbg.de/)
+-   [CyberChef](https://github.com/gchq/CyberChef)
+-   [Normshield](https://www.normshield.com/)
+-   [Shodan](https://www.shodan.io/)
+-   [Malbolge](https://nl.wikipedia.org/wiki/Malbolge)
+-   [Hex Rays IDA](https://www.hex-rays.com/products/decompiler/)
+-   [Steghide](http://steghide.sourceforge.net/)
+-   [Turgen System](http://turgen.sourceforge.net/)
+-   [CSA - Cloud Security Alliance](https://cloudsecurityalliance.org/)
+-   [FIREEYE](https://www.fireeye.com/)
+-   [Privacy Rights Clearinghouse](https://privacyrights.org/)
+-   [Malware Traffic Analysis Net](https://www.malware-traffic-analysis.net/)
+-   [Snort](https://www.snort.org/)
+-   [Tag Cyber](https://www.tag-cyber.com/)
+-   [Exploit Db](https://www.exploit-db.com/)
+-   [Ettercap](https://www.ettercap-project.org/)
+-   [XKCD Heartbleed bug](https://xkcd.com/1354/)
+-   [Joubin Jabbari Homepage](https://jabbari.io/)
+-   [SQL Zoo](https://sqlzoo.net/)
+-   [Count Words Free Tools](https://countwordsfree.com/)
+-   [KiltHub - Carnegie Mellon University](https://kilthub.cmu.edu/)
+-   [bWAPP](http://www.itsecgames.com/)
+-   [White Source Bolt](https://bolt.whitesourcesoftware.com/)
+-   [SNYK](https://snyk.io/)
+-   [Security Enhanced Linux](https://www.nsa.gov/What-We-Do/Research/SELinux/)
+-   [App Armor](https://apparmor.net/)
+-   [Tomoyo Linux](http://tomoyo.osdn.jp/)
+-   [Smack Linux](http://schaufler-ca.com/)
+-   [Acunetix](https://www.acunetix.com/)
+-   [Netcraft](https://www.netcraft.com/)
+-   [Phishtank](https://www.phishtank.com/)
+-   [Qualys SSL Labs](https://www.ssllabs.com/)
+-   [Zonealarm](https://www.zonealarm.com/)
+-   [Pctools Threatfire](https://pc-tools-threatfire.soft32.com/)
+-   [ProDiscover](https://www.prodiscover.com/)
+-   [Hashcalc](https://hashcalc.soft112.com/)
+-   [AWAE Review: Becoming an OSWE](https://alex-labs.com/my-awae-review-becoming-an-oswe/)
+-   [How to install Django](https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release)
+-   [Writing your first Django app, part 1](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
+-   [TLDR: Generate Django Secret Key](https://humberto.io/blog/tldr-generate-django-secret-key/)
+-   [Jinja 2 Django install](https://pypi.org/project/jinja2-django-version/)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 

@@ -1,0 +1,16 @@
+# Compilation
+*.jar
+target
+bin
+*.class
+*.classpath
+*.project
+*.iml
+.idea
+
+# Make
+src-copy
+reverse.sh
+reverse.sh-e
+payload.yml
+payload.yml-e

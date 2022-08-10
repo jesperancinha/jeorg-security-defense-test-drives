@@ -1,32 +1,40 @@
-# JEOrg Security Defense Test Drives
+# Wormgat-door
 
----
+## Maven
 
-[![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/auto-phishing-reporter)
-[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=auto-phishing-reporter%20🔬&color=informational)](https://github.com/jesperancinha/auto-phishing-reporter)
+Do not use Maven
 
-[![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+## Bundling
 
-[![auto-phishing-reporter](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml/badge.svg)](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml)
+```bash
+javac src/main/java/wormgat/WormgatDoorFactory.java
+jar -cvf wormgat-door.jar -C src/ .
+```
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/auto-phishing-reporter&amp;utm_campaign=Badge_Grade)
+## Serving it
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/auto-phishing-reporter&utm_campaign=Badge_Coverage)
-[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/auto-phishing-reporter/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/auto-phishing-reporter?branch=master)
-[![codecov](https://codecov.io/gh/jesperancinha/auto-phishing-reporter/branch/master/graph/badge.svg?token=X6A7wP3Dvw)](https://codecov.io/gh/jesperancinha/auto-phishing-reporter)
+```bash
+python3 -m http.server {port}
+```
 
-[![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/auto-phishing-reporter.svg)](#)
-[![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/auto-phishing-reporter.svg)](#)
-[![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/auto-phishing-reporter.svg)](#)
+## Autorun
 
----
+```bash
+./make.sh
+nc -nvlp {rev}
+```
 
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧 !!! [Under construction...](https://github.com/jesperancinha/project-signer/blob/master/project-signer-templates/UnderConstruction.md) !!! 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+## Utils
 
+```bash
+ifconfig en0 inet
+ifconfig tn0 inet
+```
 
-## Status
+## Resources
 
-*** Under development ***
+-   [SnakeYaml Deserilization exploited](https://swapneildash.medium.com/snakeyaml-deserilization-exploited-b4a2c5ac0858)
+-   [Yaml Payload](https://github.com/artsploit/yaml-payload)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 

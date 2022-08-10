@@ -1,4 +1,4 @@
-# JEOrg Security Defense Test Drives
+# Auto Phishing Reporter
 
 ---
 
@@ -23,10 +23,22 @@
 
 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧 !!! [Under construction...](https://github.com/jesperancinha/project-signer/blob/master/project-signer-templates/UnderConstruction.md) !!! 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
+The goal of this repository is to create a tool which users can install as a service and with that, have their phishing emails automatically sent to wherever users map them to. I will only make an official release of this when I'm absolutely sure of a couple of things. One is that the wrong mail doesn't get emailed to a phishing reporting service and make sure that to the best of my knowledge, the phishing emails are reported by the minute you receive them. This will give pirates and hackers a lot less time be able to escape. All of this comfortably knowing that no script will be run from the emails received.
+
+Please be aware that first versions will only consider dry/runs. This means no changes will be made but you will get an automated report on what to do per suspected email you've received on your account.
 
 ## Status
 
 *** Under development ***
+
+## Useful commands
+
+### MACOS
+
+```bash
+brew cask install xquartz
+brew install rdesktop
+```
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
