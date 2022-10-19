@@ -33,6 +33,10 @@
 - [auto-phishing-reporter](./auto-phishing-reporter) - Auto Phishing report to be able to report automatically emails - 🚧 Under Construction (On-Hold) 🚧
 - [email-header-reader-project](./email-header-reader-project) - Reads email headers and analysis it to provide information about emails to block, reporting suggestions, origin of the email and more - 🚧 Under Construction 🚧
 
+## Keep Updated
+
+- [FraudeHelpdesk.nl Live Warnings](https://www.fraudehelpdesk.nl/actueel/alerts/)
+
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
