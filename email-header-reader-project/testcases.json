@@ -8,5 +8,10 @@
     "city": "Delfzijl",
     "region": "Groningen",
     "country": "NL"
+  },
+  {
+    "city": "Mountain View",
+    "region": "California",
+    "country": "US"
   }
 ]
