@@ -1,6 +1,16 @@
 version: 2
 updates:
-  - package-ecosystem: "maven"
+  - package-ecosystem: maven
     directory: "/"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: gradle
+    directory: "/email-header-reader-project/email-header-reader-service"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: npm
+    directory: "/email-header-reader-project/email-header-reader-frontend"
     schedule:
       interval: "daily"
