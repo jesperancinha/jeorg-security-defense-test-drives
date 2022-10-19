@@ -36,6 +36,7 @@
 ## Keep Updated
 
 - [FraudeHelpdesk.nl Live Warnings](https://www.fraudehelpdesk.nl/actueel/alerts/)
+- [IP WHOIS Lookup](https://www.whatismyip.com/ip-whois-lookup/)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
