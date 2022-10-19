@@ -13,5 +13,10 @@
     "city": "Mountain View",
     "region": "California",
     "country": "US"
+  },
+  {
+    "city": "Council Bluffs",
+    "region": "Iowa",
+    "country": "US"
   }
 ]
