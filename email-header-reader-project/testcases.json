@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Hamina",
+    "region": "Kymenlaakso",
+    "country": "FI"
+  },
+  {
+    "city": "Delfzijl",
+    "region": "Groningen",
+    "country": "NL"
+  },
+  {
+    "city": "Mountain View",
+    "region": "California",
+    "country": "US"
+  },
+  {
+    "city": "Council Bluffs",
+    "region": "Iowa",
+    "country": "US"
+  }
+]

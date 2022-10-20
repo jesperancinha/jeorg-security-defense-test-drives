@@ -1,4 +1,4 @@
-name: auto-phishing-reporter-pull-request
+name: jeorg-security-defense-test-drives-pull-request
 
 on:
   pull_request:
