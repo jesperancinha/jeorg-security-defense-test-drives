@@ -18,5 +18,10 @@
     "city": "Council Bluffs",
     "region": "Iowa",
     "country": "US"
+  },
+  {
+    "city": "Nice",
+    "region": "Provence-Alpes-Cote-d'Azur",
+    "country": "FR"
   }
 ]
