@@ -38,6 +38,33 @@
 - [FraudeHelpdesk.nl Live Warnings](https://www.fraudehelpdesk.nl/actueel/alerts/)
 - [IP WHOIS Lookup](https://www.whatismyip.com/ip-whois-lookup/)
 
+A few advices on fraudulent emails. To make sure you block the correct ones please look into the headers of your email. Your provider should have an option to do this and look for these headers in the very long text you get when you view them:
+
+```text
+From: "possibly an actual email. this could be masked one so it's not always a good idea to block whatever is put here"
+To: undisclosed-recipients:;
+Subject: "whatever"
+Reply-To: "this is the email you should block"
+Mail-Reply-To: "this is the other email you should block"
+In-Reply-To: "block this one too"
+References: "whatever"
+Message-ID: "whatever"
+```
+
+If you need to know from which country and location where this email was sent from on the last point of its trip to you then look for these headers:
+
+```text
+Authentication-Results: spf=pass (sender IP is "this is the IP you are looking for")
+```
+
+Or you can also look it up on this header:
+
+```text
+X-Sender-IP: "this is the IP you are looking for"
+```
+
+You can then pick this IP and look it up in [IP WHOIS Lookup](https://www.whatismyip.com/ip-whois-lookup/).
+
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
