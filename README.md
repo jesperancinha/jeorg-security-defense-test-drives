@@ -30,13 +30,13 @@
 
 ## Project Layout
 
-- [auto-phishing-reporter](./auto-phishing-reporter) - Auto Phishing report to be able to report automatically emails - 🚧 Under Construction (On-Hold) 🚧
-- [email-header-reader-project](./email-header-reader-project) - Reads email headers and analysis it to provide information about emails to block, reporting suggestions, origin of the email and more - 🚧 Under Construction 🚧
+-   [auto-phishing-reporter](./auto-phishing-reporter) - Auto Phishing report to be able to report automatically emails - 🚧 Under Construction (On-Hold) 🚧
+-   [email-header-reader-project](./email-header-reader-project) - Reads email headers and analysis it to provide information about emails to block, reporting suggestions, origin of the email and more - 🚧 Under Construction 🚧
 
 ## Keep Updated
 
-- [FraudeHelpdesk.nl Live Warnings](https://www.fraudehelpdesk.nl/actueel/alerts/)
-- [IP WHOIS Lookup](https://www.whatismyip.com/ip-whois-lookup/)
+-   [FraudeHelpdesk.nl Live Warnings](https://www.fraudehelpdesk.nl/actueel/alerts/)
+-   [IP WHOIS Lookup](https://www.whatismyip.com/ip-whois-lookup/)
 
 A few advices on fraudulent emails. To make sure you block the correct ones please look into the headers of your email. Your provider should have an option to do this and look for these headers in the very long text you get when you view them:
 
