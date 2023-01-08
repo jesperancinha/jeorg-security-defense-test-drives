@@ -1,55 +1,44 @@
-# JWT
+# Auto Phishing Reporter
 
-## [How to create RS256 Private and Public Keys (clicke for source)](https://gist.github.com/ygotthilf/baa58da5c3dd1f69fae9)
+---
 
--   Generate
+[![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/auto-phishing-reporter)
+[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=auto-phishing-reporter%20🔬&color=informational)](https://github.com/jesperancinha/auto-phishing-reporter)
+
+[![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[![auto-phishing-reporter](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml/badge.svg)](https://github.com/jesperancinha/auto-phishing-reporter/actions/workflows/auto-phishing-reporter.yml)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/auto-phishing-reporter&amp;utm_campaign=Badge_Grade)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/99f50401c52f422fa1043bf41da3c9ec)](https://www.codacy.com/gh/jesperancinha/auto-phishing-reporter/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/auto-phishing-reporter&utm_campaign=Badge_Coverage)
+[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/auto-phishing-reporter/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/auto-phishing-reporter?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/auto-phishing-reporter/branch/master/graph/badge.svg?token=X6A7wP3Dvw)](https://codecov.io/gh/jesperancinha/auto-phishing-reporter)
+
+[![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/auto-phishing-reporter.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/auto-phishing-reporter.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/auto-phishing-reporter.svg)](#)
+
+---
+
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧 !!! [Under construction...](https://github.com/jesperancinha/project-signer/blob/master/project-signer-templates/UnderConstruction.md) !!! 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+
+The goal of this repository is to create a tool which users can install as a service and with that, have their phishing emails automatically sent to wherever users map them to. I will only make an official release of this when I'm absolutely sure of a couple of things. One is that the wrong mail doesn't get emailed to a phishing reporting service and make sure that to the best of my knowledge, the phishing emails are reported by the minute you receive them. This will give pirates and hackers a lot less time be able to escape. All of this comfortably knowing that no script will be run from the emails received.
+
+Please be aware that first versions will only consider dry/runs. This means no changes will be made but you will get an automated report on what to do per suspected email you've received on your account.
+
+## Status
+
+*** Under development ***
+
+## Useful commands
+
+### MACOS
 
 ```bash
-ssh-keygen -t rsa -b 4096 -m PEM -f rs256.key
-openssl rsa -in rs256.key -pubout -outform PEM -out rs256.key.pub
+brew cask install xquartz
+brew install rdesktop
 ```
-
--   Check results
-
-```bash
-cat rs256.key
-cat rs256.key.pub	
-```
-
-## Create JWT token
-
-```bash
-cat header.json | tr -d '\n' | tr -d '\r' | openssl enc -base64 | tr +/ -_ | tr -d '=' > header.b64
-cat payload.json | tr -d '\n' | tr -d '\r' | openssl enc -base64 | tr +/ -_ | tr -d '=' > payload.b64
-printf "%s" "$(<header.b64)" "." "$(<payload.b64)" | tr -d '\n' > unsigned.b64
-printf "%s" "$(<unsigned.b64)" | openssl dgst -sha256 -binary -sign rs256.key  | openssl enc -base64 | tr -d '\n=' | tr -- '+/' '-_' > signature.b64
-printf "%s" "$(<unsigned.b64)" "." "$(<signature.b64)" | tr -d '\n' > jwt.jose
-printf "%s" "$(<jwt.jose)"
-```
-
-## Utilities
-
-```bash
-python3 -m http.server {port}
-```
-
-## Algorithm choices
-
-Make sure that the correct Hashing Algorithm is chosen.
-For example although `RS256` is similar to `HS256`, they are different algorithms.
-
-## File examples
-
-The [payload.json](./payload.json) and [header.json](./header.json) files are just examples.
-I made these two files via [JWT.IO](https://jwt.io/).
-
-## References
-
--   [Generate RSA keys](https://learn.akamai.com/en-us/webhelp/iot/jwt-access-control/GUID-BD7079F4-09ED-4FAB-A923-4ACFE254BA3E.html)
--   [Token Access Control](https://learn.akamai.com/en-us/webhelp/iot/jwt-access-control/GUID-CB17F8FF-3367-4D4B-B3FE-FDBA53A5EA02.html)
--   [jwtRS256.sh](https://gist.github.com/ygotthilf/baa58da5c3dd1f69fae9)
--   [Create RS256 JWT in bash](https://stackoverflow.com/questions/58313106/create-rs256-jwt-in-bash)
--   [Cryptography Key Size](https://en.wikipedia.org/wiki/Key_size#Asymmetric_algorithm_key_lengths)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
