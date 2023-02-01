@@ -3,6 +3,9 @@ name: jeorg-security-defense-test-drives
 on:
   push:
     branches: [ master ]
+  pull_request_target:
+    types:
+      - closed
 
 jobs:
   build:
