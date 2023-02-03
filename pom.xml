@@ -29,7 +29,7 @@
         <javax.mail-api.version>1.6.2</javax.mail-api.version>
         <greenmail.version>1.6.12</greenmail.version>
         <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
-        <omni-coveragereporter-maven-plugin.version>0.4.1</omni-coveragereporter-maven-plugin.version>
+        <omni-coveragereporter-maven-plugin.version>0.4.2</omni-coveragereporter-maven-plugin.version>
         <spring-boot-starter-parent.version>3.0.2</spring-boot-starter-parent.version>
     </properties>
 
