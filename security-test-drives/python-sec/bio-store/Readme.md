@@ -29,7 +29,7 @@ pip install Jinja2
 -   [TLDR: Generate Django Secret Key](https://humberto.io/blog/tldr-generate-django-secret-key/)
 -   [Jinja 2 Django install](https://pypi.org/project/jinja2-django-version/)
 
-## About me 👨🏽‍💻🚀🏳️‍🌈
+## About me
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=social "GitHub")](https://github.com/jesperancinha)

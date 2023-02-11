@@ -16,7 +16,7 @@ EOF
 -   [What Is A PTR Record? Do I Need To Create One?](https://kb.intermedia.net/article/1317)
 -   [When using nsupdate to update both A and PTR records, why do I get “update failed: update RR is outside zone (NOTZONE)”?](https://superuser.com/questions/977132/when-using-nsupdate-to-update-both-a-and-ptr-records-why-do-i-get-update-faile)
 
-## About me 👨🏽‍💻🚀🏳️‍🌈
+## About me
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=social "GitHub")](https://github.com/jesperancinha)

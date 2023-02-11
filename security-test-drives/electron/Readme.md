@@ -8,7 +8,7 @@ shasum -a 512 {exec} | cut -d " " -f1 | xxd -r -p | base64
 
 -   [Signature Validation Bypass Leading to RCE In Electron-Updater](https://blog.doyensec.com/2020/02/24/electron-updater-update-signature-bypass.html)
 
-## About me 👨🏽‍💻🚀🏳️‍🌈
+## About me
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=social "GitHub")](https://github.com/jesperancinha)

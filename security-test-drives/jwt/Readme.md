@@ -51,7 +51,7 @@ I made these two files via [JWT.IO](https://jwt.io/).
 -   [Create RS256 JWT in bash](https://stackoverflow.com/questions/58313106/create-rs256-jwt-in-bash)
 -   [Cryptography Key Size](https://en.wikipedia.org/wiki/Key_size#Asymmetric_algorithm_key_lengths)
 
-## About me 👨🏽‍💻🚀🏳️‍🌈
+## About me
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=social "GitHub")](https://github.com/jesperancinha)
