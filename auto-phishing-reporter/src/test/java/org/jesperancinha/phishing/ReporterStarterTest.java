@@ -19,11 +19,9 @@ import static org.junit.Assert.assertEquals;
 
 @SpringBootTest
 @ActiveProfiles("test")
-public class ReporterStarterTest
-{
+public class ReporterStarterTest {
     @Test
-    public void testContext()
-    {
+    public void testContext() {
     }
 
     @Autowired
@@ -34,7 +32,7 @@ public class ReporterStarterTest
 
     @Test
     @Disabled
-    public void testSomething() throws MessagingException, javax.mail.MessagingException {
+    public void testSomething() throws MessagingException {
         final GreenMail greenMail = new GreenMail();
         greenMail.setUser("jofisaes-test@jesperancinha.org", "jofisaes-test@jesperancinha.org",
                 "1234567890");
@@ -48,7 +46,7 @@ public class ReporterStarterTest
         helper.setText("body");
         javaMailSender.send(message);
 
-        final javax.mail.internet.MimeMessage[] emails = greenMail.getReceivedMessages();
+        final MimeMessage[] emails = greenMail.getReceivedMessages();
         assertEquals(2, emails.length);
         assertEquals("subject", emails[0].getSubject());
         assertEquals("body", GreenMailUtil.getBody(emails[0]));
