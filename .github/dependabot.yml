@@ -9,6 +9,13 @@ updates:
     directory: "/email-header-reader-project/email-header-reader-service"
     schedule:
       interval: "daily"
+    groups:
+      kotlin:
+        patterns:
+          - "org.jetbrains.kotlin.*"
+          - "com.google.devtools.ksp"
+          - "kotlin*"
+          - "*kotlin*"
 
   - package-ecosystem: npm
     directory: "/email-header-reader-project/email-header-reader-frontend"
