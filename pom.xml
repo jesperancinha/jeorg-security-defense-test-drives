@@ -6,7 +6,7 @@
     <version>1.0.0</version>
 
     <properties>
-        <lombok.version>1.18.40</lombok.version>
+        <lombok.version>1.18.42</lombok.version>
         <java.version>17</java.version>
         <maven-compiler-plugin.compilerVersion>${java.version}</maven-compiler-plugin.compilerVersion>
         <maven-compiler-plugin.source>${java.version}</maven-compiler-plugin.source>
