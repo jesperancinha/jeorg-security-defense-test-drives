@@ -19,7 +19,7 @@
         <maven-release-plugin.version>2.4.1</maven-release-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <junit-jupiter.version>5.9.0</junit-jupiter.version>
-        <assertj-core.version>3.27.4</assertj-core.version>
+        <assertj-core.version>3.27.5</assertj-core.version>
         <picocli.version>4.7.7</picocli.version>
         <lombok-maven-plugin.version>1.18.6.0</lombok-maven-plugin.version>
         <mockito-junit-jupiter.version>5.19.0</mockito-junit-jupiter.version>
