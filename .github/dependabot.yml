@@ -3,12 +3,12 @@ updates:
   - package-ecosystem: maven
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "yearly"
 
   - package-ecosystem: gradle
     directory: "/email-header-reader-project/email-header-reader-service"
     schedule:
-      interval: "daily"
+      interval: "yearly"
     groups:
       kotlin:
         patterns:
@@ -20,7 +20,7 @@ updates:
   - package-ecosystem: npm
     directory: "/email-header-reader-project/email-header-reader-frontend"
     schedule:
-      interval: "daily"
+      interval: "yearly"
     groups:
       angular:
         patterns:
